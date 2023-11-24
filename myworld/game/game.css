@@ -96,3 +96,24 @@ body {
   font-weight: 700;
   color: #999999;
 }
+
+.game_lotto {
+  width: 130px;
+  height: 21px;
+  background-color: #ffe400;
+  border: 1px solid gray;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 14px;
+  font: Malgun Gothic;
+}
+
+.lotto_btn {
+  width: 62px;
+  height: 24px;
+  font-size: 12px;
+  font-weight: 700;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
