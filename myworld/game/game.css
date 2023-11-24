@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper_game {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.game_header {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+.game_constents_title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.game_title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #55b2d4;
+}
+
+.game_subtitle {
+  font-size: 9px;
+  padding-left: 10px;
+}
+
+.devideLine {
+  width: 100%;
+  border-top: 1px solid gray;
+}
+
+.game_container {
+  width: 222px;
+  height: 168px;
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 15px;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+.word_text {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.word_input {
+  width: 138px;
+  height: 24px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.word_btn {
+  width: 38px;
+  height: 24px;
+  font-size: 12px;
+  font-weight: 700;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.body_title {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.body_subtitle {
+  font-size: 12px;
+  color: #999999;
+}
+
+.word_result {
+  font-size: 15px;
+  font-weight: 700;
+  color: #999999;
+}
