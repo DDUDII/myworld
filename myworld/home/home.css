@@ -24,7 +24,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-.contents_title {
+.home_contents_title {
   display: flex;
   flex-direction: row;
   align-items: center;

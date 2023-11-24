@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <link href="./game.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="wrapper_game">
+      <div class="game_header">
+        <div class="game_constents_title">
+          <div class="game_title">GAME</div>
+          <div class="game_subtitle">TODAy choice</div>
+        </div>
+        <div class="devideLine"></div>
+      </div>
+
+      <div class="game_container">
+        <img src="./game1.png" alt="끝말잇기" />
+        <div class="body_title">끝말잇기</div>
+        <div class="body_subtitle">
+          제시어 : <span id="word">마이월드</span>
+        </div>
+        <div class="word_text">
+          <input class="word_input" id="wordInput" />
+          <button class="word_btn" id="wordBTN">입력</button>
+        </div>
+        <div class="word_result" id="wordResult">결과!</div>
+      </div>
+      <div class="game_container"></div>
+    </div>
+    <script src="./game.js"></script>
+  </body>
+</html>
