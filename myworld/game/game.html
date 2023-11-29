@@ -20,22 +20,31 @@
         <img src="./game1.png" alt="끝말잇기" />
         <div class="body_title">끝말잇기</div>
         <div class="body_subtitle">
-          제시어 : <span id="word">마이월드</span>
+          제시어 : <span class="word_span" id="word">마이월드</span>
         </div>
         <div class="word_text">
-          <input class="word_input" id="wordInput" />
+          <input class="word_input" id="wordInput" autocomplete="off" />
           <button class="word_btn" id="wordBtn">입력</button>
         </div>
-        <div class="word_result" id="wordResult">결과!</div>
+
+        <div class="word_result" id="wordResult">. . .</div>
       </div>
       <div class="game_container">
         <img src="./game2.png" alt="로또" />
         <div class="body_title">LOTTO</div>
         <div class="body_subtitle">버튼을 누르세요</div>
-        <div class="game_lotto" id="lotto">1 2 3 4 5 6</div>
+        <div class="game_lotto" id="lotto">
+          <span>1</span>
+          <span>24</span>
+          <span>32</span>
+          <span>4</span>
+          <span>15</span>
+          <span>46</span>
+        </div>
         <button class="lotto_btn" id="lottoBtn">번호생성</button>
       </div>
     </div>
+
     <script src="./game.js"></script>
   </body>
 </html>
