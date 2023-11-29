@@ -1,10 +1,15 @@
 const word = document.getElementById("word");
+const wordForm = document.getElementById("wordForm");
 const wordInput = document.getElementById("wordInput");
 const wordBtn = document.getElementById("wordBtn");
 const wordResult = document.getElementById("wordResult");
 const retryBtn = document.getElementById("retryBtn");
 
 let isPassed = null;
+
+const formEventHandler = wordForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+});
 
 const clickWordBtn = wordBtn.addEventListener("click", () => {
   const currentWord = word.innerText;
