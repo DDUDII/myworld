@@ -164,3 +164,27 @@ iframe {
   height: 100%;
   border: none;
 }
+.navigation {
+  width: 62px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  left: 790px;
+  top: 100px;
+}
+.nav_btn {
+  width: 100%;
+  height: 30px;
+  color: white;
+  background-color: #298eb5;
+  border-left: none;
+  border: 1px solid gray;
+  border-radius: 0px 5px 5px 0px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+  line-height: 20px;
+}
