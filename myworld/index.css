@@ -188,3 +188,8 @@ iframe {
   text-align: center;
   line-height: 20px;
 }
+
+.active {
+  color: black;
+  background-color: white;
+}
