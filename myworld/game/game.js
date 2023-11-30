@@ -25,15 +25,12 @@ const clickWordBtn = wordBtn.addEventListener("click", () => {
   if (lastStr === firstStr) {
     wordResult.innerText = "통과 🎉";
     isPassed = true;
-    if (isPassed === true) {
-      word.innerText = wordInput.value;
-      wordInput.value = "";
-    }
+    word.innerText = wordInput.value;
+    wordInput.value = "";
   } else {
     wordResult.innerText = "땡! 🚫 ";
     isPassed = false;
-    if (isPassed === false) {
-      alert("틀렸습니다!");
-    }
+    alert("틀렸습니다!");
+    wordInput.value = "";
   }
 });
