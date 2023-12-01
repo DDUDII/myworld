@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>회원가입</title>
-    <link href="./02-signup.css" rel="stylesheet" />
+    <link href="./signup.css" rel="stylesheet" />
   </head>
   <body>
     <div class="signup_wrapper">
@@ -13,47 +13,66 @@
         <div class="signup_body">
           <div class="signup_box">
             <div class="signup_title">이메일</div>
-            <input type="text" placeholder="abcd123@mail.com" />
+            <input type="text" placeholder="abcd123@mail.com" id="emailInput" />
+            <div class="empty_warning" id="emptyWarning">
+              * 이메일을 입력해 주세요
+            </div>
           </div>
           <div class="signup_box">
             <div class="signup_title">이름</div>
-            <input type="text" />
+            <input type="text" id="nameInput" />
+            <div class="empty_warning" id="emptyWarning">
+              * 이름을 입력해 주세요
+            </div>
           </div>
           <div class="signup_box">
             <div class="signup_title">비밀번호</div>
-            <input type="password" />
+            <input type="password" id="passwordInput" />
+            <div class="empty_warning" id="emptyWarning">
+              * 비밀번호를 입력해 주세요
+            </div>
           </div>
           <div class="signup_box">
             <div class="signup_title">비밀번호 확인</div>
-            <input type="password" />
+            <input type="password" id="passwordConfirmInput" />
+            <div class="empty_warning" id="emptyWarning">
+              * 비밀번호 확인을 입력해 주세요
+            </div>
           </div>
           <div class="signup_gender">
             <div class="gender_contents">
-              <input type="radio" name="gender" />
+              <input type="radio" name="gender" id="gender" />
               <div class="gender_title">여성</div>
             </div>
             <div class="gender_contents">
-              <input type="radio" name="gender" />
+              <input type="radio" name="gender" id="gender" />
               <div class="gender_title">남성</div>
             </div>
             <div class="gender_contents">
-              <input type="radio" name="gender" />
+              <input type="radio" name="gender" id="gender" />
               <div class="gender_title">비공개</div>
             </div>
           </div>
+          <div class="empty_warning" id="emptyWarning">
+            * 성별을 선택해 주세요
+          </div>
           <div class="signup_checkbox">
-            <input type="checkbox" />
+            <input type="checkbox" id="agreedCheck" />
             <div class="checkbox_title">
               이용약관 개인정보 수집 및 이용, 마케팅 활용 선택에 모두
               동의합니다.
             </div>
           </div>
+          <div class="empty_warning" id="emptyWarning">
+            * 약관에 동의해 주세요
+          </div>
         </div>
         <div class="footer_btn">
-          <button class="signup_btn">가입하기</button>
-          <button class="return_btn">취소</button>
+          <button class="signup_btn" id="signupBtn">가입하기</button>
+          <button class="return_btn" id="returnBtn">취소</button>
         </div>
       </div>
     </div>
+    <script src="./signup.js"></script>
   </body>
 </html>
