@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원가입</title>
+    <link href="./02-signup.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="signup_wrapper">
+      <div class="signup_contents">
+        <h2>회원가입 정보입력</h2>
+        <div class="signup_body">
+          <div class="signup_box">
+            <div class="signup_title">이메일</div>
+            <input type="text" placeholder="abcd123@mail.com" />
+          </div>
+          <div class="signup_box">
+            <div class="signup_title">이름</div>
+            <input type="text" />
+          </div>
+          <div class="signup_box">
+            <div class="signup_title">비밀번호</div>
+            <input type="password" />
+          </div>
+          <div class="signup_box">
+            <div class="signup_title">비밀번호 확인</div>
+            <input type="password" />
+          </div>
+          <div class="signup_gender">
+            <div class="gender_contents">
+              <input type="radio" name="gender" />
+              <div class="gender_title">여성</div>
+            </div>
+            <div class="gender_contents">
+              <input type="radio" name="gender" />
+              <div class="gender_title">남성</div>
+            </div>
+            <div class="gender_contents">
+              <input type="radio" name="gender" />
+              <div class="gender_title">비공개</div>
+            </div>
+          </div>
+          <div class="signup_checkbox">
+            <input type="checkbox" />
+            <div class="checkbox_title">
+              이용약관 개인정보 수집 및 이용, 마케팅 활용 선택에 모두
+              동의합니다.
+            </div>
+          </div>
+        </div>
+        <div class="footer_btn">
+          <button class="signup_btn">가입하기</button>
+          <button class="return_btn">취소</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

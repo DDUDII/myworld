@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.signup_wrapper {
+  width: 670px;
+  height: 960px;
+  border: 1px solid #aacdff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup_contents {
+  width: 470px;
+  height: 818px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  width: 100%;
+  height: 94px;
+  font-size: 32px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup_box {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 26px;
+}
+
+.signup_title {
+  width: 100%;
+  height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.signup_box > input {
+  border: none;
+  border-bottom: 1px solid #cfcfcf;
+  outline: none;
+  font-size: 16px;
+  transition: border-bottom 0.3s ease;
+}
+
+.signup_box > input:focus {
+  border-bottom: 1px solid #0068ff;
+}
+
+.signup_box > input::placeholder {
+  color: #cfcfcf;
+  font-size: 14px;
+}
+
+.signup_box > input:focus::placeholder {
+  color: transparent;
+}
+
+.signup_gender {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.gender_contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.gender_title {
+  margin-left: 5px;
+  font-size: 16px;
+}
+.signup_checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+}
+
+.checkbox_title {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.footer_btn {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup_btn {
+  width: 65%;
+  height: 75px;
+  margin-right: 10px;
+  border: 1px solid #0068ff;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #0068ff;
+  transition: background-color 0.3s ease;
+}
+.signup_btn:hover {
+  background-color: #dbeaff;
+}
+.return_btn {
+  width: 20%;
+  height: 75px;
+  border: 1px solid rgb(151, 151, 151);
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  color: rgb(151, 151, 151);
+  transition: background-color 0.3s ease;
+}
+
+.return_btn:hover {
+  background-color: #e7e7e7;
+}
