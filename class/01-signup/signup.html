@@ -12,28 +12,30 @@
         <h2>회원가입 정보입력</h2>
         <div class="signup_body">
           <div class="signup_box">
-            <div class="signup_title">이메일</div>
+            <label for="emailInput" class="signup_title">이메일</label>
             <input type="text" placeholder="abcd123@mail.com" id="emailInput" />
             <div class="empty_warning" id="emailWarning">
               * 이메일을 입력해 주세요
             </div>
           </div>
           <div class="signup_box">
-            <div class="signup_title">이름</div>
+            <label for="nameInput" class="signup_title">이름</label>
             <input type="text" id="nameInput" />
             <div class="empty_warning" id="nameWarning">
               * 이름을 입력해 주세요
             </div>
           </div>
           <div class="signup_box">
-            <div class="signup_title">비밀번호</div>
+            <label for="passwordInput" class="signup_title">비밀번호</label>
             <input type="password" id="passwordInput" />
             <div class="empty_warning" id="passwordWarning">
               * 비밀번호를 입력해 주세요
             </div>
           </div>
           <div class="signup_box">
-            <div class="signup_title">비밀번호 확인</div>
+            <label for="passwordConfirmInput" class="signup_title"
+              >비밀번호 확인</label
+            >
             <input type="password" id="passwordConfirmInput" />
             <div class="empty_warning" id="passwordConfirmWarning">
               * 비밀번호 확인을 입력해 주세요
@@ -42,15 +44,15 @@
           <div class="signup_gender">
             <div class="gender_contents">
               <input type="radio" name="gender" id="female" />
-              <div class="gender_title">여성</div>
+              <label for="female" class="gender_title">여성</label>
             </div>
             <div class="gender_contents">
               <input type="radio" name="gender" id="male" />
-              <div class="gender_title">남성</div>
+              <label for="male" class="gender_title">남성</label>
             </div>
             <div class="gender_contents">
               <input type="radio" name="gender" id="other" />
-              <div class="gender_title">비공개</div>
+              <label for="other" class="gender_title">비공개</label>
             </div>
           </div>
           <div class="empty_warning" id="genderWarning">
@@ -58,10 +60,10 @@
           </div>
           <div class="signup_checkbox">
             <input type="checkbox" id="agreedCheck" />
-            <div class="checkbox_title">
+            <label for="agreedCheck" class="checkbox_title">
               이용약관 개인정보 수집 및 이용, 마케팅 활용 선택에 모두
               동의합니다.
-            </div>
+            </label>
           </div>
           <div class="empty_warning" id="agreedCheckWarning">
             * 약관에 동의해 주세요
